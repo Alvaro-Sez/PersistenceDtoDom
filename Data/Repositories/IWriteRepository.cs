@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+
+namespace Productora.Data.Repositories
+{
+    public interface IWriteRepository<in TEntity, in TKey> : IDisposable
+        where TEntity : class
+    {
+        void Add(TEntity entity);
+
+        void Remove(TEntity entity);
+
+        void Add(IEnumerable<TEntity> entities);
+
+        void Remove(IEnumerable<TEntity> entities);
+
+        Task SaveChanges();
+
+    }
+}

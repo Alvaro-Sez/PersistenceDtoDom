@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "Productora" :"Server=DESKTOP-DKIC2SS; Database=Productora; Trusted_Connection=True;"
+  }
+}

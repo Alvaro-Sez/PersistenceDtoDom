@@ -1,0 +1,51 @@
+{
+	"Nombre": "Productora X",
+	"Peliculas": [
+		{
+			"Titulo": "Entrevista con el vampiro",
+			"Tematica": "Terror/Suspense",
+			"Director": {
+				"Nombre": "Neil Jordan",
+				"Salario": 832157
+			},
+			"Actores": [
+				{
+					"Nombre": "Brad Pitt",
+					"Nacionalidad": "Estadounidense",
+					"Papel": "Protagonista",
+					"Salario": 31325
+				},
+				{
+					"Nombre": "Tom Cruise",
+					"Nacionalidad": "Estadounidense",
+					"Papel": "Protagonista",
+					"Salario": 31325
+				}
+			],
+			"Presupuesto": 120323
+		},
+		{
+			"Titulo": "Pulp Fiction",
+			"Tematica": "Accion",
+			"Director": {
+				"Nombre": "Quentin Tarantino",
+				"Salario": 832157
+			},
+			"Actores": [
+				{
+					"Nombre": "Bruce Willis",
+					"Nacionalidad": "Estadounidense",
+					"Papel": "Protagonista",
+					"Salario": 31325
+				},
+				{
+					"Nombre": "Samuel L. Jackson",
+					"Nacionalidad": "Estadounidense",
+					"Papel": "Protagonista",
+					"Salario": 31325
+				}
+			],
+			"Presupuesto": 120323
+		}
+	]
+}
